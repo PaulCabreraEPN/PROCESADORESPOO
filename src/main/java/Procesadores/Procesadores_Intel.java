@@ -3,6 +3,9 @@ package Procesadores;
 public class Procesadores_Intel extends Procesadores_escritorio{
     boolean tarjeta_video;
 
+    public Procesadores_Intel() {
+    }
+
     public Procesadores_Intel(boolean tarjeta_video) {
         this.tarjeta_video = tarjeta_video;
     }
