@@ -15,9 +15,11 @@ public class Main {
 
         //TADIO
         Procesadores p = new Procesadores_moviles();
-        Procesadores p1 = new Procesadores_moviles(125,"SnapDragon 888",8, 18.7,true);
+        Procesadores p1 = new Procesadores_moviles(5,"SnapDragon 888",8, 18.7,true);
         p1.imprimir_datos();
         Procesadores q = new Procesadores_AMD();
+        Procesadores q1 = new Procesadores_AMD(65,"Ryzen 5 5500",4,3.6,true);
+
 
 
 

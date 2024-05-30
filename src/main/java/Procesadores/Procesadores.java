@@ -50,9 +50,9 @@ public class Procesadores {
     //metodos personalizads
 
     public void imprimir_datos() {
-        System.out.println("Consumo: " + consumo);
+        System.out.println("Consumo: " + consumo +"W");
         System.out.println("Nombre: " + nombre);
-        System.out.println("Velocidad: " + velocidad);
+        System.out.println("Velocidad: " + velocidad + "GHz");
         System.out.println("Nucleos: " + nucleos);
     }
 }
