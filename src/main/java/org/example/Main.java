@@ -10,7 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         //PaulCabrera
-        Procesadores pi = new Procesadores();
+        Procesadores pi1 = new Procesadores_AMD();
+        Procesadores pi2 = new Procesadores_AMD(57600, "Ryzen 5",6,3.3,false);
 
         //TADIO
         Procesadores p = new Procesadores_moviles();
