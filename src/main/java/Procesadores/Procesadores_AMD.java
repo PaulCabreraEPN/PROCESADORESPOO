@@ -18,10 +18,14 @@ public class Procesadores_AMD extends Procesadores_escritorio{
     public void setGraficosIntegrados(boolean graficosIntegrados) {
         GraficosIntegrados = graficosIntegrados;
     }
-    public void mostrar() {
-        super. imprmir_datos_escritrio();
-        System.out.println("Graficos Integrados: " + GraficosIntegrados);
-    }
+
+    //subrescribir metodo de impresion
+
+     @Override
+    public void imprimir_datos(){
+        System.out.println("Clase hija: AMD");
+     }
+
 
 
 }

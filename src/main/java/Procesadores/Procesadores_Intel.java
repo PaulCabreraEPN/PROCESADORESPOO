@@ -24,8 +24,8 @@ public class Procesadores_Intel extends Procesadores_escritorio{
     }
 
 
-    public void imprmir_datos_escritrio_intel() {
-        super.imprmir_datos_escritrio();
-        System.out.println("Tarjeta de video: " + tarjeta_video);
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Clase hija: intel");
     }
 }

@@ -23,12 +23,18 @@ public class Main {
         Procesadores q = new Procesadores_Intel();
         Procesadores q1 = new Procesadores_Intel(65,"Intel I7",4,3.6,false);
 
-        //Pail haz 2 instanciasde procesadores de escritorio
 
+        Procesadores proc1= new Procesadores();
+        proc1.imprimir_datos();
 
+        Procesadores proc2 = new Procesadores_moviles();
+        proc2.imprimir_datos();
 
+        Procesadores proc3 = new Procesadores_AMD();
+        proc3.imprimir_datos();
 
-
+        Procesadores proc4 = new Procesadores_Intel();
+        proc4.imprimir_datos();
 
     }
 
