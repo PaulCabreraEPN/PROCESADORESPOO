@@ -18,12 +18,8 @@ public class Procesadores_escritorio extends Procesadores {
         this.socket = socket;
     }
 
-    public void imprmir_datos_escritrio() {
-        System.out.println("El nombre del procesador es: " + getNombre());
-        System.out.println("Los nucleos del procesador son: " + getNucleos());
-        System.out.println("La velocidad del procesador es: " + getVelocidad());
-        System.out.println("El consumo del procesador es: " + getConsumo());
-        System.out.println("El socket del procesador es: " + getSocket());
-
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Clase hija: escritorio");
     }
 }

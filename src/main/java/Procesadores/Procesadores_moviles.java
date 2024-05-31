@@ -19,12 +19,8 @@ public class Procesadores_moviles extends Procesadores {
         this.optimizacion_energia = optimizacion_energia;
     }
 
-    public void imprmir_datos_escritrio() {
-        System.out.println("El nombre del procesador es: " + getNombre());
-        System.out.println("Los nucleos del procesador son: " + getNucleos());
-        System.out.println("La velocidad del procesador es: " + getVelocidad() + "GHz");
-        System.out.println("El consumo del procesador es: " + getConsumo() + "% menos que la media");
-        System.out.println("La optimizacion de energia  es: " + getOptimizacion_energia());
-
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Clase hija: moviles");
     }
 }
